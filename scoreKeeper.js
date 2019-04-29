@@ -67,3 +67,5 @@ numInput.addEventListener("change", function(){
     winningScore = Number(this.value);
     reset();
 });
+// this refers to what ever the was being listened too or on
+// in this this should be numInput but we can use this a short hand to refer to the var at the top
